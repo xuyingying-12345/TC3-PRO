@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.3">
+  <POU Name="FB_ADD" Id="{a13bdbc9-ce5c-4839-afa2-9aebe5957e6b}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_ADD
+VAR_INPUT
+	int1,int2:INT;
+END_VAR
+VAR_OUTPUT
+	out:int;
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[out:=int1+int2;
+]]></ST>
+    </Implementation>
+    <LineIds Name="FB_ADD">
+      <LineId Id="9" Count="0" />
+      <LineId Id="12" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

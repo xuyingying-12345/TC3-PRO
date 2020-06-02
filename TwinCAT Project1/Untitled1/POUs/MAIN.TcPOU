@@ -6,10 +6,11 @@ VAR
 	a:INT;
 	b:INT;
 	c:INT;
+	add1:FB_ADD;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[add1(int1:= a, int2:= b, out=>c );]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
